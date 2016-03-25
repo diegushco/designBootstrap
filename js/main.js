@@ -5,3 +5,7 @@ $(".carousel").carousel({
 $("#miModal").modal({
 	show: false
 })
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+    $('[data-toggle="popover"]').popover();
+});
